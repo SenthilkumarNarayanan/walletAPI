@@ -10,7 +10,7 @@ import com.edureka.wallet.model.WalletDto;
 
 @Service
 public class WalletServiceImpl implements WalletService {
-
+    //logger service added
 	private static final Logger logger = LoggerFactory.getLogger(WalletServiceImpl.class);
 
 	@Override
