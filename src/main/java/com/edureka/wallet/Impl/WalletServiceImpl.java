@@ -12,7 +12,7 @@ import com.edureka.wallet.model.WalletDto;
 public class WalletServiceImpl implements WalletService {
     //logger feature added
 	private static final Logger logger = LoggerFactory.getLogger(WalletServiceImpl.class);
-
+    
 	@Override
 	public WalletDto doTransaction(PaymentTransactionDto transaction) {
 		logger.info("Transaction request received = {} ", transaction);

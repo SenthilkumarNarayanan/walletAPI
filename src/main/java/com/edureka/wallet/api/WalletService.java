@@ -5,7 +5,7 @@ import com.edureka.wallet.model.WalletDto;
 
 
 public interface WalletService {
-
+   //payment bug fixed
 	WalletDto doTransaction(PaymentTransactionDto transaction);
 
 	WalletDto getBalance(String emailId);
